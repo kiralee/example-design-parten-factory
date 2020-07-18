@@ -2,7 +2,8 @@
     "name": "xdev/example-design-partten-factory",
     "description": "Research design partten factory to improve your skill and apply this pattern to your product or framework",
     "type": "library",
-    "license": "1.0.0",
+    "version": "1.0.0",
+    "license": "MIT",
     "minimum-stability": "dev",
     "repositories": [
         {
