@@ -1,0 +1,19 @@
+{
+    "name": "xdev/example-design-partten-factory",
+    "description": "Research design partten factory to improve your skill and apply this pattern to your product or framework",
+    "type": "library",
+    "license": "1.0.0",
+	"minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Xdev Solution",
+            "email": "xdev.solution@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4":{
+			"App\\" : "src/App/"
+		}
+	}
+}
