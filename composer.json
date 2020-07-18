@@ -3,7 +3,13 @@
     "description": "Research design partten factory to improve your skill and apply this pattern to your product or framework",
     "type": "library",
     "license": "1.0.0",
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/kiralee/example-design-parten-factory/settings"
+        }
+    ],
     "authors": [
         {
             "name": "Xdev Solution",
