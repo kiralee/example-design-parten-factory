@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helper;
+namespace App\Helper\Facades;
 
 class File{
 
@@ -16,6 +16,4 @@ class File{
         }
         fclose($myfile);
     }
-
-    
 }
