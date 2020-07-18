@@ -27,7 +27,6 @@ class MySql implements InterfaceDb{
             $this->_userName = $dbConfig['username'];
             $this->_password = $dbConfig['password'];
             $this->_dbName = $dbConfig['database'];
-            //FIX ME [Code] ko catch được khi ko kết nối dc
             $this->_connect = new \PDO("mysql:host=$this->_host;dbname=$this->_dbName",$this->_userName,$this->_password);
             return $this;
         }catch(\PDOException  $e){

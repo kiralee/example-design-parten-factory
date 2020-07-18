@@ -10,8 +10,8 @@ $envConfig = $file->readFile("../../.env");
 
 $dbFactory = new DbFactory();
 
-$db = $dbFactory->getDb(DatabasePlugin::MYSQL);
-//$db = $dbFactory->getDb(DatabasePlugin::Mongo);
-//$db = $dbFactory->getDb(DatabasePlugin::Postgres);
+//$db = $dbFactory->getDb(DatabasePlugin::MYSQL);
+$db = $dbFactory->getDb(DatabasePlugin::MONGO);
+//$db = $dbFactory->getDb(DatabasePlugin::POSTGRES);
 
 var_dump($db->connect());
